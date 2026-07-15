@@ -61,9 +61,9 @@ Files in this repo (/wokwi-carnation-monitor/):
 2.  Every 5 seconds: reads DHT22 (temp/humidity) and MQ-5/MQ-2 (analog gas reading), evaluates them against carnation-growth and LPG-safety thresholds, and pushes a line-protocol point to InfluxDB Cloud via HTTPS POST to /api/v2/write.
 3.  The LCD rotates every 3 seconds between an environmental screen (temp/humidity) and a gas/alert screen, so on-site staff have an immediate local readout even without checking the dashboard.
 
-    ![](media/28a4bd1c518c5628fb7cec17bbca8920.png)
+    ![](display1.png)
 
-    ![](media/ffaa6edf3cdf97b371c25a9972b6e0c4.png)
+    ![](display2.png)
 
 **4. Cloud Storage Setup , InfluxDB Cloud**
 
@@ -94,15 +94,15 @@ We connected Grafana Cloud to our InfluxDB Cloud bucket as a data source (Flux q
 
 **Dashboard screenshot(s):**
 
-![](media/10c2a682ddd51f9d0c56e9ec9535c382.png)
+![](temp.png)
 
-![](media/a168b9379063b140bed401919cfb7651.png)
+![](gas.png)
 
-![](media/0a6fe83f8e2b313331cd6f93b7633de1.png)
+![](humidity.png)
 
 5.  **Groupwork Evidence**
 
-    **![](media/06901a4bdbbf0a5ee050cf782287e4ac.png)**
+    **![](groupworkevidence.png)**
 
 **Group members:**
 
